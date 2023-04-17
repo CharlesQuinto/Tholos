@@ -1,7 +1,3 @@
 # Tholos
 
-Hello a start to merging and branches
-
-Here's another addition
-
-An additional change
+This is a baseline on how begin the process of committing changes to the maing branch
