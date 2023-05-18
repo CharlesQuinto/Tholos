@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     background-color: black;
+    overflow: hidden;
 }
 
 .nav {
@@ -63,5 +64,37 @@ body {
 }  
 
 .visual {
+    text-align: center;
     padding-left: 100px;
+    --xtra: 115px;
+}
+
+.z {
+    height: 340px;
+    width: 200px;
+    position: absolute;
+}
+
+.alpha {
+    background-color: rgb(29, 29, 29);
+    margin-left: calc(120px + var(--xtra));
+    margin-top: 0px;
+}
+
+.bravo {
+    background-color: rgb(48, 48, 48);
+    margin-left: calc(80px + var(--xtra));
+    margin-top: 20px;
+}
+
+.charlie {
+    background-color: rgb(75, 75, 75);
+    margin-left: calc(40px + var(--xtra));
+    margin-top: 40px;
+}
+
+.delta {
+    background-color: rgb(102, 102, 102);
+    margin-left: calc(0px + var(--xtra));
+    margin-top: 60px;
 }

@@ -76,6 +76,28 @@ body {
     height: 100px;
 }
 
+.snd {
+    text-align: center;
+}
+
+.snd button {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.snd button:hover {
+    font-weight: bold;
+}
+
+.snd button:active {
+    background-color: white;
+    color: black;
+}
+
 .socials {
     color: white;
 
