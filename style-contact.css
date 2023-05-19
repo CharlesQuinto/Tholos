@@ -70,6 +70,7 @@ body {
     background-color: black;
     outline: none;
     border-radius: 5px;
+    color: white;
 }
 
 .cmnt {
@@ -106,3 +107,7 @@ body {
     align-items: center;
 }
 
+.navimg {
+    height: 100px;
+    width: 100px;
+}

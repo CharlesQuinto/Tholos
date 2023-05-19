@@ -6,3 +6,20 @@ h1 {
 body {
     font-family: 'Times New Roman', Times, serif !important;
 }
+
+.navimg {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-item2 {
+    margin: auto;
+}
+
+.carousel {
+    margin-bottom: 50px;
+}
+
+.cards2 {
+    background-color: black;
+}
