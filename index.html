@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Tholos'Archive</title>
+
 </head>
-<body>
-    <h1>Tholos Cloud Vault Services</h1>
-    <p>Keep your files protected.</p>
-    <p> The purpose of this website is to provide a clean and safe environment for users to store their data with our data encryption</p>
-    <p>Keep RETRIEVING FILES.</p>
-    <p>FIRST CHANGE</p>
-</body>
+    
+    <body class="body1">
+        <!-- contains the model for the eye with the animation -->
+        <a href="Navigationhub.html">
+            <!-- This contains the large oblong base of the eye -->
+            <div class="eye" onclick="myFunction()" tabindex="0">
+                <!-- This contains the eyelids -->
+                <div class="shut">
+                    <span></span>
+                </div>
+                <!-- This contains the pupils and remaining parts of the eye -->
+                <div class="ball">
+                </div>
+            </div>
+        </a>
+
+        <!-- connects external javascript to this file to stop the animation from pushing through after clicking and moving away from the eye -->
+        <script src="eyesScript.js"></script>
+        
+    </body>
+
 </html>
